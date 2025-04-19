@@ -369,6 +369,7 @@ namespace AddnPrintHD.ViewModels
             _ = LoadManufacturers();
             _ = LoadDeviceModels();
         }
+        #region Dymo
         public IEnumerable<DymoSDK.Interfaces.IPrinter> Printers
         {
             get
@@ -640,5 +641,6 @@ namespace AddnPrintHD.ViewModels
                 }
             }
         }
+        #endregion
     }
 }
