@@ -1,0 +1,478 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\DymoApp\\WPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|WPFSDKSample\\WPFSDKSample.csproj|c:\\projects\\dymoapp\\wpf\\wpfsdksample\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|WPFSDKSample\\WPFSDKSample.csproj|solutionrelative:wpfsdksample\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|WPFSDKSample\\WPFSDKSample.csproj|C:\\Projects\\DymoApp\\WPF\\wpfsdksample\\models\\devicemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|WPFSDKSample\\WPFSDKSample.csproj|solutionrelative:wpfsdksample\\models\\devicemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|WPFSDKSample\\WPFSDKSample.csproj|C:\\Projects\\DymoApp\\WPF\\wpfsdksample\\services\\devicemodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|WPFSDKSample\\WPFSDKSample.csproj|solutionrelative:wpfsdksample\\services\\devicemodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|WPFSDKSample\\WPFSDKSample.csproj|C:\\Projects\\DymoApp\\WPF\\wpfsdksample\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|WPFSDKSample\\WPFSDKSample.csproj|solutionrelative:wpfsdksample\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|WPFSDKSample\\WPFSDKSample.csproj|C:\\Projects\\DymoApp\\WPF\\wpfsdksample\\models\\availabilityoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|WPFSDKSample\\WPFSDKSample.csproj|solutionrelative:wpfsdksample\\models\\availabilityoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|WPFSDKSample\\WPFSDKSample.csproj|C:\\Projects\\DymoApp\\WPF\\wpfsdksample\\models\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|WPFSDKSample\\WPFSDKSample.csproj|solutionrelative:wpfsdksample\\models\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|WPFSDKSample\\WPFSDKSample.csproj|C:\\Projects\\DymoApp\\WPF\\wpfsdksample\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|WPFSDKSample\\WPFSDKSample.csproj|solutionrelative:wpfsdksample\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|WPFSDKSample\\WPFSDKSample.csproj|C:\\Projects\\DymoApp\\WPF\\wpfsdksample\\models\\apidataitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|WPFSDKSample\\WPFSDKSample.csproj|solutionrelative:wpfsdksample\\models\\apidataitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|WPFSDKSample\\WPFSDKSample.csproj|C:\\Projects\\DymoApp\\WPF\\wpfsdksample\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|WPFSDKSample\\WPFSDKSample.csproj|solutionrelative:wpfsdksample\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|WPFSDKSample\\WPFSDKSample.csproj|C:\\Projects\\DymoApp\\WPF\\wpfsdksample\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|WPFSDKSample\\WPFSDKSample.csproj|solutionrelative:wpfsdksample\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|WPFSDKSample\\WPFSDKSample.csproj|C:\\Projects\\DymoApp\\WPF\\wpfsdksample\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|WPFSDKSample\\WPFSDKSample.csproj|solutionrelative:wpfsdksample\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 346,
+          "SelectedChildIndex": 60,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:163:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:164:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:165:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:166:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:167:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:162:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:161:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:160:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:159:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:158:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:157:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:156:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:155:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:154:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:153:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:152:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:151:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:150:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:149:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:162:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:170:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:180:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:190:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:191:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:192:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:193:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:189:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:165:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:193:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:192:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Projects\\DymoApp\\WPF\\WPFSDKSample\\App.xaml",
+              "RelativeDocumentMoniker": "WPFSDKSample\\App.xaml",
+              "ToolTip": "C:\\Projects\\DymoApp\\WPF\\WPFSDKSample\\App.xaml",
+              "RelativeToolTip": "WPFSDKSample\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-18T21:45:17.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApiDataItem.cs",
+              "DocumentMoniker": "C:\\Projects\\DymoApp\\WPF\\WPFSDKSample\\Models\\ApiDataItem.cs",
+              "RelativeDocumentMoniker": "WPFSDKSample\\Models\\ApiDataItem.cs",
+              "ToolTip": "C:\\Projects\\DymoApp\\WPF\\WPFSDKSample\\Models\\ApiDataItem.cs",
+              "RelativeToolTip": "WPFSDKSample\\Models\\ApiDataItem.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T21:18:29.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Device.cs",
+              "DocumentMoniker": "C:\\Projects\\DymoApp\\WPF\\WPFSDKSample\\Models\\Device.cs",
+              "RelativeDocumentMoniker": "WPFSDKSample\\Models\\Device.cs",
+              "ToolTip": "C:\\Projects\\DymoApp\\WPF\\WPFSDKSample\\Models\\Device.cs",
+              "RelativeToolTip": "WPFSDKSample\\Models\\Device.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T21:18:24.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AvailabilityOption.cs",
+              "DocumentMoniker": "C:\\Projects\\DymoApp\\WPF\\WPFSDKSample\\Models\\AvailabilityOption.cs",
+              "RelativeDocumentMoniker": "WPFSDKSample\\Models\\AvailabilityOption.cs",
+              "ToolTip": "C:\\Projects\\DymoApp\\WPF\\WPFSDKSample\\Models\\AvailabilityOption.cs",
+              "RelativeToolTip": "WPFSDKSample\\Models\\AvailabilityOption.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvwwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T21:11:21.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Projects\\DymoApp\\WPF\\WPFSDKSample\\Models\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "WPFSDKSample\\Models\\ApiResponse.cs",
+              "ToolTip": "C:\\Projects\\DymoApp\\WPF\\WPFSDKSample\\Models\\ApiResponse.cs",
+              "RelativeToolTip": "WPFSDKSample\\Models\\ApiResponse.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T21:09:34.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Projects\\DymoApp\\WPF\\WPFSDKSample\\ViewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "WPFSDKSample\\ViewModels\\BaseViewModel.cs",
+              "ToolTip": "C:\\Projects\\DymoApp\\WPF\\WPFSDKSample\\ViewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "WPFSDKSample\\ViewModels\\BaseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T20:16:25.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeviceModelService.cs",
+              "DocumentMoniker": "C:\\Projects\\DymoApp\\WPF\\WPFSDKSample\\Services\\DeviceModelService.cs",
+              "RelativeDocumentMoniker": "WPFSDKSample\\Services\\DeviceModelService.cs",
+              "ToolTip": "C:\\Projects\\DymoApp\\WPF\\WPFSDKSample\\Services\\DeviceModelService.cs",
+              "RelativeToolTip": "WPFSDKSample\\Services\\DeviceModelService.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T20:15:34.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Projects\\DymoApp\\WPF\\WPFSDKSample\\Models\\TokenService.cs",
+              "RelativeDocumentMoniker": "WPFSDKSample\\Models\\TokenService.cs",
+              "ToolTip": "C:\\Projects\\DymoApp\\WPF\\WPFSDKSample\\Models\\TokenService.cs",
+              "RelativeToolTip": "WPFSDKSample\\Models\\TokenService.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAYwCkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T20:14:09.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Projects\\DymoApp\\WPF\\WPFSDKSample\\packages.config",
+              "RelativeDocumentMoniker": "WPFSDKSample\\packages.config",
+              "ToolTip": "C:\\Projects\\DymoApp\\WPF\\WPFSDKSample\\packages.config",
+              "RelativeToolTip": "WPFSDKSample\\packages.config",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-18T20:00:37.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeviceModel.cs",
+              "DocumentMoniker": "C:\\Projects\\DymoApp\\WPF\\WPFSDKSample\\Models\\DeviceModel.cs",
+              "RelativeDocumentMoniker": "WPFSDKSample\\Models\\DeviceModel.cs",
+              "ToolTip": "C:\\Projects\\DymoApp\\WPF\\WPFSDKSample\\Models\\DeviceModel.cs",
+              "RelativeToolTip": "WPFSDKSample\\Models\\DeviceModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T18:54:58.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Projects\\DymoApp\\WPF\\WPFSDKSample\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "WPFSDKSample\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Projects\\DymoApp\\WPF\\WPFSDKSample\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "WPFSDKSample\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAPcAAAAAAAAAAAAAAP0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T18:53:56.558Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 298,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{be4d7042-ba3f-11d2-840e-00c04f9902c1}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6a22fc8f-6c1e-5388-aa3d-9dc8ddb2d262}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{605322a2-17ae-43f4-b60f-766556e46c87}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{2e7065be-2911-5d06-9444-328203e57925}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 383,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{8294f124-07d1-574c-bf4d-1c4a34e31c86}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0504ff91-9d61-11d0-a794-00a0c9110051}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{4a18f9d0-b838-11d0-93eb-00a0c90f2734}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{90243340-bd7a-11d0-93ef-00a0c90f2734}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{8d263989-ff4b-4a78-90c8-b2ba3fa69311}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 227,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{4a9b7e51-aa16-11d0-a8c5-00a0c921a4d2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

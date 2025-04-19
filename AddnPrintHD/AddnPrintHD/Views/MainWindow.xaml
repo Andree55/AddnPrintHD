@@ -1,0 +1,177 @@
+﻿<Window x:Class="AddnPrintHD.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AddnPrintHD"    
+        xmlns:VM="clr-namespace:AddnPrintHD.ViewModels"     
+        mc:Ignorable="d"
+        Title="DYMO Printing App" Height="800" Width="900"
+        Loaded="Window_Loaded">
+    <Window.DataContext>
+        <VM:MainViewModel />
+    </Window.DataContext>
+    <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+        <Grid>
+            <Grid.Resources>
+                <Style TargetType="{x:Type StackPanel}">
+                    <Setter Property="Margin" Value="10" />
+                </Style>
+                <Style TargetType="{x:Type WrapPanel}">
+                    <Setter Property="Margin" Value="5" />
+                </Style>
+                <Style TargetType="{x:Type TextBox}">
+                    <Setter Property="FontSize" Value="15" />
+                </Style>
+                <Style x:Key="LabelTitle" TargetType="Label">
+                    <Setter Property="FontSize" Value="13"/>
+                    <Setter Property="FontWeight" Value="Bold" />
+                </Style>
+                <Style x:Key="ActionButton" TargetType="Button">
+                    <Setter Property="FontSize" Value="12"/>
+                    <Setter Property="Background" Value="CadetBlue"/>
+                    <Setter Property="Foreground" Value="White" />
+                </Style>
+                <Style x:Key="BorderPanel" TargetType="Border">
+                    <Setter Property="Background" Value="AliceBlue" />
+                    <Setter Property="BorderBrush" Value="Gainsboro" />
+                    <Setter Property="BorderThickness" Value="1" />
+                </Style>
+            </Grid.Resources>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Border BorderBrush="DimGray" BorderThickness="1" Grid.Row="1" Grid.Column="1" />
+            <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Vertical" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Stretch">
+                <Label HorizontalAlignment="Stretch" Style="{StaticResource LabelTitle}">Adding device</Label>
+                <Border Style="{StaticResource BorderPanel}" Padding="10" Margin="10">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <!-- For labels -->
+                            <ColumnDefinition Width="Auto"/>
+                            <!-- For textboxes -->
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <!-- Device Name (input) -->
+                        <Label Grid.Row="0" Grid.Column="0">Device Name:</Label>
+                        <TextBox Grid.Row="0" Grid.Column="1" Margin="5" Text="{Binding NewDevice.DeviceName}" Width="250"/>
+
+                        <!-- Device Category (ComboBox) -->
+                        <Label Grid.Row="1" Grid.Column="0">Device Category:</Label>
+                        <ComboBox Grid.Row="1" Grid.Column="1" Margin="5" Width="250"
+                                  ItemsSource="{Binding DeviceCategories}"
+                                  SelectedItem="{Binding SelectedDeviceCategory, Mode=TwoWay}"
+                                  DisplayMemberPath="Value"/>
+
+                        <!-- Manufacturers (ComboBox) -->
+                        <Label Grid.Row="2" Grid.Column="0">Manufacturer:</Label>
+                        <ComboBox Grid.Row="2" Grid.Column="1" Margin="5" Width="250"
+                                ItemsSource="{Binding Manufacturers}"
+                                SelectedItem="{Binding SelectedManufacturer, Mode=TwoWay}"
+                                DisplayMemberPath="Value"/>
+
+                        <!-- Device Model (ComboBox) -->
+                        <Label Grid.Row="3" Grid.Column="0">Device Model:</Label>
+                        <StackPanel Grid.Row="3" Grid.Column="1" Orientation="Horizontal" Margin="115,5,5,5">
+                            <ComboBox x:Name="DeviceModelComboBox"
+                                  Width="250"
+                                  ItemsSource="{Binding DeviceModels}"
+                                  SelectedItem="{Binding SelectedDeviceModel, Mode=TwoWay}"
+                                  DisplayMemberPath="Cra87Id"/>
+                            <Button Content="Add New" Width="100" Margin="10,0,0,0" Click="AddNewModel_Click" />
+                        </StackPanel>
+
+                        <!-- Serial Number (input) -->
+                        <Label Grid.Row="4" Grid.Column="0">Serial Number:</Label>
+                        <TextBox Grid.Row="4" Grid.Column="1" Margin="5" Text="{Binding NewDevice.SerialNumber}" Width="250"/>
+
+                        <!-- Availability (ComboBox) -->
+                        <Label Grid.Row="5" Grid.Column="0">Availability:</Label>
+                        <ComboBox Grid.Row="5" Grid.Column="1" Margin="5" Width="250"
+                                  ItemsSource="{Binding AvailabilityOptions}"
+                                  SelectedItem="{Binding SelectedAvailability, Mode=TwoWay}"
+                                  DisplayMemberPath="Value"/>
+                    </Grid>
+                </Border>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="10">
+                    <Button Command="{Binding AddDeviceCommand}"
+                        Style="{StaticResource ActionButton}"
+                        Margin="0,0,10,0"
+                        Width="120">Add Device</Button>
+
+                            <Button Command="{Binding ClearFormCommand}"
+                        Style="{StaticResource ActionButton}"
+                        Width="120">Clear</Button>      
+                </StackPanel>
+
+                <Label Style="{StaticResource LabelTitle}">Open a file label</Label>
+                <Border Style="{StaticResource BorderPanel}" Padding="10">
+                    <WrapPanel>
+                        <TextBox IsEnabled="False" Text="{Binding FileName}" Width="450" />
+                        <Button Margin="10,0,0,0" Command="{Binding OpenFileCommand}" Style="{StaticResource ActionButton}" Width="80">Browse...</Button>
+                    </WrapPanel>
+                </Border>
+
+                <Label Style="{StaticResource LabelTitle}">Label objects</Label>
+                <Border Style="{StaticResource BorderPanel}" Padding="10">
+                    <WrapPanel>
+                        <StackPanel>
+                            <Label FontWeight="Bold" FontSize="12">Select object</Label>
+                            <ListBox ItemsSource="{Binding LabelObjects}" SelectedItem="{Binding SelectedLabelObject, Mode=OneWayToSource}" DisplayMemberPath="Name" MaxHeight="100" />
+                        </StackPanel>
+                        <StackPanel>
+                            <Label FontWeight="Bold" FontSize="12" >Object value</Label>
+                            <TextBox Width="150" Text="{Binding ObjectValue}" />
+                            <Separator />
+                            <Button Command="{Binding UpdateLabelCommand}" Style="{StaticResource ActionButton}">Update label</Button>
+                        </StackPanel>
+                        <StackPanel>
+                            <Label FontWeight="Bold" FontSize="12">Preview</Label>
+                            <WrapPanel Background="Transparent" Height="200">
+                                <Image Margin="5" RenderOptions.BitmapScalingMode="HighQuality" Source="{Binding ImageSourcePreview}" Width="250" Height="200" />
+                            </WrapPanel>
+                            <Separator />
+                            <Button Command="{Binding UpdatePreviewCommand}" Style="{StaticResource ActionButton}">Update preview</Button>
+                        </StackPanel>
+                    </WrapPanel>
+                </Border>
+
+                <Label Style="{StaticResource LabelTitle}">Printers</Label>
+                <Border Style="{StaticResource BorderPanel}" Padding="10">
+                    <WrapPanel>
+                        <StackPanel>
+                            <Label FontWeight="Bold" FontSize="12">Select printer</Label>
+                            <ComboBox ItemsSource="{Binding Printers}" SelectedItem="{Binding SelectedPrinter, Mode=OneWayToSource}" DisplayMemberPath="Name" Width="250" />
+                        </StackPanel>
+                        <StackPanel>
+                            <Label FontWeight="Bold" FontSize="12">Roll selection (Twin Turbo 450 printer)</Label>
+                            <ComboBox ItemsSource="{Binding TwinTurboRolls}" SelectedItem="{Binding SelectedRoll, Mode=OneWayToSource}" />
+                            <Label FontSize="11">*Only for Twin Turbo 450 printer</Label>
+                        </StackPanel>
+                        <StackPanel>
+                            <Button Command="{Binding PrintLabelCommand}" Style="{StaticResource ActionButton}" Margin="25" Width="120">Print label</Button>
+                        </StackPanel>
+                    </WrapPanel>
+                </Border>
+                <TextBlock Text="{Binding PrintersFound, StringFormat='Printer(s) installed {0}'}" HorizontalAlignment="Right" />
+            </StackPanel>
+        </Grid>
+    </ScrollViewer>
+</Window>
