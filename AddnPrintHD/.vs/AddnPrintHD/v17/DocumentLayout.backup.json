@@ -7,23 +7,23 @@
       "RelativeMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|AddnPrintHD\\AddnPrintHD.csproj|solutionrelative:addnprinthd\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|AddnPrintHD\\AddnPrintHD.csproj|c:\\projects\\addnprinthd\\addnprinthd\\addnprinthd\\services\\devicemodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|AddnPrintHD\\AddnPrintHD.csproj|C:\\Projects\\AddnPrintHD\\AddnPrintHD\\addnprinthd\\services\\devicemodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|AddnPrintHD\\AddnPrintHD.csproj|solutionrelative:addnprinthd\\services\\devicemodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|AddnPrintHD\\AddnPrintHD.csproj|c:\\projects\\addnprinthd\\addnprinthd\\addnprinthd\\models\\devicemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|AddnPrintHD\\AddnPrintHD.csproj|C:\\Projects\\AddnPrintHD\\AddnPrintHD\\addnprinthd\\models\\devicemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|AddnPrintHD\\AddnPrintHD.csproj|solutionrelative:addnprinthd\\models\\devicemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|AddnPrintHD\\AddnPrintHD.csproj|c:\\projects\\addnprinthd\\addnprinthd\\addnprinthd\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|AddnPrintHD\\AddnPrintHD.csproj|C:\\Projects\\AddnPrintHD\\AddnPrintHD\\addnprinthd\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|AddnPrintHD\\AddnPrintHD.csproj|solutionrelative:addnprinthd\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|AddnPrintHD\\AddnPrintHD.csproj|c:\\projects\\addnprinthd\\addnprinthd\\addnprinthd\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|AddnPrintHD\\AddnPrintHD.csproj|C:\\Projects\\AddnPrintHD\\AddnPrintHD\\addnprinthd\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|AddnPrintHD\\AddnPrintHD.csproj|solutionrelative:addnprinthd\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|AddnPrintHD\\AddnPrintHD.csproj|c:\\projects\\addnprinthd\\addnprinthd\\addnprinthd\\models\\apidataitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|AddnPrintHD\\AddnPrintHD.csproj|C:\\Projects\\AddnPrintHD\\AddnPrintHD\\addnprinthd\\models\\apidataitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|AddnPrintHD\\AddnPrintHD.csproj|solutionrelative:addnprinthd\\models\\apidataitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -244,7 +244,7 @@
               "RelativeDocumentMoniker": "AddnPrintHD\\ViewModels\\MainViewModel.cs",
               "ToolTip": "C:\\Projects\\AddnPrintHD\\AddnPrintHD\\AddnPrintHD\\ViewModels\\MainViewModel.cs",
               "RelativeToolTip": "AddnPrintHD\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AgIAAGABAAAAAAAAAAAUwGcBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwGkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-19T11:50:20.843Z",
               "EditorCaption": ""
@@ -259,8 +259,7 @@
               "RelativeToolTip": "AddnPrintHD\\Services\\DeviceModelService.cs",
               "ViewState": "AgIAAE0AAAAAAAAAAAAgwAEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T11:50:07.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T11:50:07.337Z"
             },
             {
               "$type": "Document",
@@ -272,8 +271,7 @@
               "RelativeToolTip": "AddnPrintHD\\Models\\DeviceModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T11:49:58.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T11:49:58.327Z"
             },
             {
               "$type": "Document",
@@ -285,8 +283,7 @@
               "RelativeToolTip": "AddnPrintHD\\Models\\Device.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T11:49:52.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T11:49:52.319Z"
             },
             {
               "$type": "Document",
@@ -298,8 +295,7 @@
               "RelativeToolTip": "AddnPrintHD\\Models\\ApiResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T11:45:35.228Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T11:45:35.228Z"
             },
             {
               "$type": "Document",
@@ -311,8 +307,7 @@
               "RelativeToolTip": "AddnPrintHD\\Models\\ApiDataItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T11:45:31.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T11:45:31.712Z"
             }
           ]
         },
