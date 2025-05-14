@@ -8,7 +8,7 @@ namespace AddnPrintHD.Models
     public static class TokenService
     {
         private static IPublicClientApplication _app;
-        private static string[] Scopes = new[] { "https://fristadev.crm4.dynamics.com/.default" };
+        private static string[] Scopes = new[] { "https://org689d1ab9.crm4.dynamics.com/.default" };
         private static string _accessToken = string.Empty;
 
         private const string ClientId = "705e5379-a911-42a2-80ec-8d273f85dbf6";

@@ -183,7 +183,7 @@ namespace AddnPrintHD.ViewModels
         private async Task LoadDeviceCategories()
         {
             var response = await FetchDataFromApi(
-                "https://fristadev.crm4.dynamics.com/api/data/v9.2/stringmaps?$filter=objecttypecode eq 'cra87_is_inventory'"
+                "https://org689d1ab9.crm4.dynamics.com/api/data/v9.2/stringmaps?$filter=objecttypecode eq 'cra87_is_inventory'"
             );
 
             ProcessAndLoadData(response?.Value, "cra87_device_category", DeviceCategories);
@@ -191,7 +191,7 @@ namespace AddnPrintHD.ViewModels
         private async Task LoadManufacturers()
         {
             var response = await FetchDataFromApi(
-                "https://fristadev.crm4.dynamics.com/api/data/v9.2/stringmaps?$filter=objecttypecode eq 'cra87_is_inventory'"
+                "https://org689d1ab9.crm4.dynamics.com/api/data/v9.2/stringmaps?$filter=objecttypecode eq 'cra87_is_inventory'"
             );
 
             ProcessAndLoadData(response?.Value, "cra87_manufacturer", Manufacturers);
@@ -207,7 +207,7 @@ namespace AddnPrintHD.ViewModels
                     foreach (var device in deviceModels)
                     {
                         DeviceModels.Add(device);
-                    }
+                    } 
                 }
             }
             else
@@ -218,7 +218,7 @@ namespace AddnPrintHD.ViewModels
         private async Task LoadAvailabilityOptions()
         {
             var response = await FetchDataFromApi(
-                "https://fristadev.crm4.dynamics.com/api/data/v9.2/stringmaps?$filter=objecttypecode eq 'cra87_is_inventory'"
+                "https://org689d1ab9.crm4.dynamics.com/api/data/v9.2/stringmaps?$filter=objecttypecode eq 'cra87_is_inventory'"
             );
 
             ProcessAndLoadData(response?.Value, "cra87_availability", AvailabilityOptions);
@@ -282,7 +282,7 @@ namespace AddnPrintHD.ViewModels
                 var content = new StringContent(json, System.Text.Encoding.UTF8, "application/json");
 
                 var response = await _httpClient.PostAsync(
-                    "https://fristadev.api.crm4.dynamics.com/api/data/v9.2/cra87_is_inventories",
+                    "https://org689d1ab9.api.crm4.dynamics.com/api/data/v9.2/cra87_is_inventories",
                     content
                 );
 

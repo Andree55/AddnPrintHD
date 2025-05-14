@@ -21,7 +21,7 @@ namespace AddnPrintHD.Services
 
         public async Task<ObservableCollection<DeviceModel>> GetDeviceModelsAsync()
         {
-            string url = "https://fristadev.crm4.dynamics.com/api/data/v9.2/cra87_is_inventory_device_models";
+            string url = "https://org689d1ab9.crm4.dynamics.com/api/data/v9.2/cra87_is_inventory_device_models";
             ObservableCollection<DeviceModel> deviceModels = new ObservableCollection<DeviceModel>();
 
             try
@@ -64,7 +64,7 @@ namespace AddnPrintHD.Services
 
         public async Task<Guid> CreateDeviceModelAsync(string modelName)
         {
-            string url = "https://fristadev.crm4.dynamics.com/api/data/v9.2/cra87_is_inventory_device_models";
+            string url = "https://org689d1ab9.crm4.dynamics.com/api/data/v9.2/cra87_is_inventory_device_models";
 
             var payload = new
             {

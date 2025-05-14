@@ -7,8 +7,32 @@
       "RelativeMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|AddnPrintHD\\AddnPrintHD.csproj|solutionrelative:addnprinthd\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|AddnPrintHD\\AddnPrintHD.csproj|C:\\Projects\\AddnPrintHD\\AddnPrintHD\\addnprinthd\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|AddnPrintHD\\AddnPrintHD.csproj|solutionrelative:addnprinthd\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|AddnPrintHD\\AddnPrintHD.csproj|C:\\Projects\\AddnPrintHD\\AddnPrintHD\\addnprinthd\\models\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|AddnPrintHD\\AddnPrintHD.csproj|solutionrelative:addnprinthd\\models\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|AddnPrintHD\\AddnPrintHD.csproj|C:\\Projects\\AddnPrintHD\\AddnPrintHD\\addnprinthd\\services\\devicemodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|AddnPrintHD\\AddnPrintHD.csproj|solutionrelative:addnprinthd\\services\\devicemodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|AddnPrintHD\\AddnPrintHD.csproj|C:\\Projects\\AddnPrintHD\\AddnPrintHD\\addnprinthd\\commands\\relaycommand .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|AddnPrintHD\\AddnPrintHD.csproj|solutionrelative:addnprinthd\\commands\\relaycommand .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|AddnPrintHD\\AddnPrintHD.csproj|C:\\Projects\\AddnPrintHD\\AddnPrintHD\\addnprinthd\\commandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|AddnPrintHD\\AddnPrintHD.csproj|solutionrelative:addnprinthd\\commandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|AddnPrintHD\\AddnPrintHD.csproj|C:\\Projects\\AddnPrintHD\\AddnPrintHD\\addnprinthd\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|AddnPrintHD\\AddnPrintHD.csproj|solutionrelative:addnprinthd\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|AddnPrintHD\\AddnPrintHD.csproj|C:\\Projects\\AddnPrintHD\\AddnPrintHD\\addnprinthd\\views\\adddevicemodelwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|AddnPrintHD\\AddnPrintHD.csproj|solutionrelative:addnprinthd\\views\\adddevicemodelwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57463AFB-6FAB-4B84-A34C-A700066E0582}|AddnPrintHD\\AddnPrintHD.csproj|C:\\Projects\\AddnPrintHD\\AddnPrintHD\\addnprinthd\\models\\devicemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 164,
-          "SelectedChildIndex": 50,
+          "SelectedChildIndex": 51,
           "Children": [
             {
               "$type": "Bookmark",
@@ -237,6 +261,10 @@
               "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainViewModel.cs",
@@ -244,26 +272,96 @@
               "RelativeDocumentMoniker": "AddnPrintHD\\ViewModels\\MainViewModel.cs",
               "ToolTip": "C:\\Projects\\AddnPrintHD\\AddnPrintHD\\AddnPrintHD\\ViewModels\\MainViewModel.cs",
               "RelativeToolTip": "AddnPrintHD\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAwGkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAAAGsBAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-19T11:50:20.843Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Projects\\AddnPrintHD\\AddnPrintHD\\AddnPrintHD\\Models\\TokenService.cs",
+              "RelativeDocumentMoniker": "AddnPrintHD\\Models\\TokenService.cs",
+              "ToolTip": "C:\\Projects\\AddnPrintHD\\AddnPrintHD\\AddnPrintHD\\Models\\TokenService.cs",
+              "RelativeToolTip": "AddnPrintHD\\Models\\TokenService.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwBwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T12:06:35.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RelayCommand .cs",
+              "DocumentMoniker": "C:\\Projects\\AddnPrintHD\\AddnPrintHD\\AddnPrintHD\\Commands\\RelayCommand .cs",
+              "RelativeDocumentMoniker": "AddnPrintHD\\Commands\\RelayCommand .cs",
+              "ToolTip": "C:\\Projects\\AddnPrintHD\\AddnPrintHD\\AddnPrintHD\\Commands\\RelayCommand .cs",
+              "RelativeToolTip": "AddnPrintHD\\Commands\\RelayCommand .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T11:01:29.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CommandHandler.cs",
+              "DocumentMoniker": "C:\\Projects\\AddnPrintHD\\AddnPrintHD\\AddnPrintHD\\CommandHandler.cs",
+              "RelativeDocumentMoniker": "AddnPrintHD\\CommandHandler.cs",
+              "ToolTip": "C:\\Projects\\AddnPrintHD\\AddnPrintHD\\AddnPrintHD\\CommandHandler.cs",
+              "RelativeToolTip": "AddnPrintHD\\CommandHandler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T11:01:26.647Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Projects\\AddnPrintHD\\AddnPrintHD\\AddnPrintHD\\ViewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "AddnPrintHD\\ViewModels\\BaseViewModel.cs",
+              "ToolTip": "C:\\Projects\\AddnPrintHD\\AddnPrintHD\\AddnPrintHD\\ViewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "AddnPrintHD\\ViewModels\\BaseViewModel.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T11:01:23.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Projects\\AddnPrintHD\\AddnPrintHD\\AddnPrintHD\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "AddnPrintHD\\Views\\MainWindow.xaml",
+              "ToolTip": "C:\\Projects\\AddnPrintHD\\AddnPrintHD\\AddnPrintHD\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "AddnPrintHD\\Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-07T10:58:44.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "DeviceModelService.cs",
               "DocumentMoniker": "C:\\Projects\\AddnPrintHD\\AddnPrintHD\\AddnPrintHD\\Services\\DeviceModelService.cs",
               "RelativeDocumentMoniker": "AddnPrintHD\\Services\\DeviceModelService.cs",
               "ToolTip": "C:\\Projects\\AddnPrintHD\\AddnPrintHD\\AddnPrintHD\\Services\\DeviceModelService.cs",
               "RelativeToolTip": "AddnPrintHD\\Services\\DeviceModelService.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAgwAEAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAUwEIAAABuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-19T11:50:07.337Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "AddDeviceModelWindow.xaml",
+              "DocumentMoniker": "C:\\Projects\\AddnPrintHD\\AddnPrintHD\\AddnPrintHD\\Views\\AddDeviceModelWindow.xaml",
+              "RelativeDocumentMoniker": "AddnPrintHD\\Views\\AddDeviceModelWindow.xaml",
+              "ToolTip": "C:\\Projects\\AddnPrintHD\\AddnPrintHD\\AddnPrintHD\\Views\\AddDeviceModelWindow.xaml",
+              "RelativeToolTip": "AddnPrintHD\\Views\\AddDeviceModelWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-07T10:58:48.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "DeviceModel.cs",
               "DocumentMoniker": "C:\\Projects\\AddnPrintHD\\AddnPrintHD\\AddnPrintHD\\Models\\DeviceModel.cs",
               "RelativeDocumentMoniker": "AddnPrintHD\\Models\\DeviceModel.cs",
@@ -275,7 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Device.cs",
               "DocumentMoniker": "C:\\Projects\\AddnPrintHD\\AddnPrintHD\\AddnPrintHD\\Models\\Device.cs",
               "RelativeDocumentMoniker": "AddnPrintHD\\Models\\Device.cs",
@@ -287,7 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "ApiResponse.cs",
               "DocumentMoniker": "C:\\Projects\\AddnPrintHD\\AddnPrintHD\\AddnPrintHD\\Models\\ApiResponse.cs",
               "RelativeDocumentMoniker": "AddnPrintHD\\Models\\ApiResponse.cs",
@@ -299,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "ApiDataItem.cs",
               "DocumentMoniker": "C:\\Projects\\AddnPrintHD\\AddnPrintHD\\AddnPrintHD\\Models\\ApiDataItem.cs",
               "RelativeDocumentMoniker": "AddnPrintHD\\Models\\ApiDataItem.cs",
